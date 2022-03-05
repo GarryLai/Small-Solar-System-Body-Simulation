@@ -1,0 +1,21 @@
+astropy==4.1
+certifi==2021.5.30
+charset-normalizer==2.0.12
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+idna==3.3
+kiwisolver @ file:///D:/bld/kiwisolver_1610099971815/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1611858808344/work
+numpy @ file:///D:/bld/numpy_1626682185159/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+OrbitalPy==0.7.0
+Pillow @ file:///D:/bld/pillow_1630696770108/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1642753572664/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+Represent==1.6.0.post0
+requests==2.27.1
+scipy @ file:///C:/bld/scipy_1629411592125/work
+sgp4==2.20
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+tornado @ file:///D:/bld/tornado_1610094881553/work
+urllib3==1.26.8
+wincertstore==0.2
