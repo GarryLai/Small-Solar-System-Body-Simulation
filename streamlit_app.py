@@ -287,7 +287,7 @@ if mode == '天體搜尋':
 		
 else:
 	a = st.sidebar.slider('半長軸 (a) (AU)', value=1.0, min_value=0.0, max_value=100.0)
-	e = st.sidebar.slider('離心率 (e)', value=0.0, min_value=0.0, max_value=1.0)
+	e = st.sidebar.slider('離心率 (e)', value=0.0, min_value=0.0, max_value=0.99)
 	i = st.sidebar.slider('軌道傾角 (i)', value=0, min_value=0, max_value=180)
 	peri = st.sidebar.slider('近日點輻角 (ω)', value=0, min_value=0, max_value=90)
 	node = st.sidebar.slider('升交點黃經 (Ω)', value=0, min_value=0, max_value=180)
