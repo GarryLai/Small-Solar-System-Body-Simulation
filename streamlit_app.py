@@ -248,6 +248,8 @@ def plotOrbits(orb_elements, time, orbit_colors=None, plot_planets=True):
 	ax.set_xlim3d(-a-2,a+2)
 	ax.set_ylim3d(-a-2,a+2)
 	ax.set_zlim3d(-a-2,a+2)
+	
+	ax.view_init(elev, azim)
 
 	plt.tight_layout()
 	return fig
@@ -255,6 +257,9 @@ def plotOrbits(orb_elements, time, orbit_colors=None, plot_planets=True):
 mode = st.sidebar.radio(
      "模式",
      ('輸入參數', '天體搜尋'))
+	 
+azim = st.sidebar.slider("方位角", value=0, min_value=0, max_value=360, step=30)
+elev = st.sidebar.slider("仰角", value=30, min_value=0, max_value=90, step=10)
 
 # Time now
 time = datetime.now()
